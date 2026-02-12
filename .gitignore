@@ -1,3 +1,15 @@
-/started
-/logs
-/.ipynb_checkpoints
+# Ignore virtual environment
+potatoleaf/
+venv/
+.env/
+
+# Ignore dataset/images if they are big
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
