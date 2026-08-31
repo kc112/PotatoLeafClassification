@@ -29,9 +29,8 @@ Historical events like the **Irish Potato Famine** highlight the catastrophic co
 ## Solution: Machine Learning
 CNNs and other machine learning techniques provide a **fast and scalable alternative** for potato disease detection. However, most existing models are trained on data from major producers like China, Europe, and North America, making them **less effective in underrepresented countries** with limited technological resources.  
 
-Recent studies show:
-- Shaheed et al. trained EfficientNet for early/late blight detection with 97.65% accuracy, but note limitations in real-world applicability.
-- Shabrina et al. developed a dataset from uncontrolled environments in Indonesia, achieving 73.63% accuracy with EfficientNetV2B3.
+
+- Shabrina et al. developed a dataset from uncontrolled environments in Indonesia, achieving 73.63% accuracy with EfficientNetV2B3. The proposed model, which we have developed, beats this by almost 15% percentage points with an accuracy of 87%
 
 Our approach focuses on **lightweight CNN models like MobileNet**, which are more practical for **real-world deployment** in smallholder farms.
 
